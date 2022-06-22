@@ -1,0 +1,147 @@
+body {
+  background-color: #f6f6f6;
+  margin: 0 auto;
+}
+
+.cultura-imagen {
+  margin-left: 4px;
+  margin-right: 4px;
+  width: 10%;
+}
+
+.cultura-large {
+  display: block;
+}
+
+.cultura-carrousel {
+  display: none;
+}
+
+.text-principal {
+  letter-spacing: -3px;
+  font-size: 4em;
+  line-height: 0.9;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .cultura-imagen {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 15%;
+  }
+
+  .cultura-large {
+    display: none;
+  }
+
+  .cultura-carrousel {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .cultura-imagen {
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 25%;
+  }
+  .text-principal {
+    letter-spacing: -2px;
+    font-size:2.2em;
+    line-height: 1.4;
+    margin-top: -15px;
+  }
+}
+
+
+
+/* Barras */
+.barra-footer {
+  background: url('../../assets/img/barra_footer.png');
+  background-size: auto;
+  height: 10px;
+  width: 100vw;
+}
+
+.barra-dos {
+  background: url('../../assets/img/barra_2.png');
+  background-size: auto;
+  height: 10px;
+  width: 100vw;
+}
+
+.barra-tres {
+  background: url('../../assets/img/barra_3.png');
+  background-size: auto;
+  height: 10px;
+  width: 100vw;
+}
+
+
+.overflow-h {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.over {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.rounded_right .v-text-field.v-text-field--enclosed:not(.v-text-field--rounded)>.v-input__control>.v-input__slot,
+.v-text-field.v-text-field--enclosed .v-text-field__details {
+  border-radius: 13px !important;
+  border-radius: 50% !important;
+
+}
+
+
+.v-input__slot+.rounded_right {
+  border-radius: 50% !important;
+}
+a {
+  text-decoration: none;
+}
+.textoCortado{
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 3;
+   -webkit-box-orient: vertical;
+}
+
+.content{
+  background-color: coral;
+  width: 100%;
+  overflow: hidden;
+   margin: 0 auto;
+   display: flex;
+   align-content: center;
+   align-items: center;
+
+}
+.video-player-box{
+  margin: auto;
+  /* align-content: center; */
+  /* align-items: center; */
+  text-align: center;
+}
+.video-js .vjs-big-play-button {
+    left: 40% !important;
+    top: 40% !important;
+    width: 20%;
+    height: 20%;
+}
+
+.video-js .vjs-play-control:before {
+    top:20% !important;
+    /* content: '\f101'; */
+    font-size: 48px;
+}
+
+.v-messages__wrapper{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
